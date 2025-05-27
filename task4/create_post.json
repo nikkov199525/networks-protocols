@@ -1,0 +1,15 @@
+{
+  "method": "GET",
+  "url": "https://api.vk.com/method/wall.post",
+  "params": {
+    "owner_id": "188340531",
+    "message": "Создаем надпись на стене через вк апи",
+    "access_token": "***",
+    "v": "5.199"
+  },
+  "response": {
+    "response": {
+      "post_id": 18
+    }
+  }
+}

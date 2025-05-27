@@ -1,0 +1,16 @@
+{
+  "method": "GET",
+  "url": "https://api.vk.com/method/wall.edit",
+  "params": {
+    "owner_id": "188340531",
+    "post_id": 18,
+    "message": "Редактируем запись на стене через вк апи",
+    "access_token": "***",
+    "v": "5.199"
+  },
+  "response": {
+    "response": {
+      "post_id": 18
+    }
+  }
+}

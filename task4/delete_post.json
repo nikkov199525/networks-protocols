@@ -1,0 +1,13 @@
+{
+  "method": "GET",
+  "url": "https://api.vk.com/method/wall.delete",
+  "params": {
+    "owner_id": "188340531",
+    "post_id": 18,
+    "access_token": "***",
+    "v": "5.199"
+  },
+  "response": {
+    "response": 1
+  }
+}
