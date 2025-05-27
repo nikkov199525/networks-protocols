@@ -1,8 +1,8 @@
 import requests
 import json
 import time
-VK_TOKEN = 'vk1.a.UkVnuPPdpP9-cpep5eEbKQ9GtslTUp0gfTCOz4vWo7fiWvCzkIIXaeMlbEM_CLAmYq5siMKL6VQGXyZ1Y8kRpWY_00y_BhmQIoMYK8LaPU5P_jlwyUnjfeVToZr4vTzkVraCh0vmSzR8jJEMB8SLeBJpdd30AEcJ9DXL18Y6WCTbWvcqe6ubKbLkRcEoVJzYPFTE8svay_tvMkRPkNCdSQ'
-owner_id = '188340531'
+VK_TOKEN = 'здесь должен быть ваш токен'
+owner_id = 'много цифр'
 VK_API_VERSION = '5.199'
 def create_post():
     url = 'https://api.vk.com/method/wall.post'
