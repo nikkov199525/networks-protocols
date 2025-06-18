@@ -1,0 +1,10 @@
+version: '3'
+services:
+  dnsmon:
+    build: .
+    ports:
+      - "8000:8000"
+      - "53:53/udp"
+    volumes:
+      - ./ssl:/app/ssl
+      - ./cronlog:/var/log
